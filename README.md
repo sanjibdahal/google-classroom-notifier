@@ -68,4 +68,4 @@ go run main.go
 3. You will be given an authorization code. Copy this code and paste it back into your terminal where your application is running.
 4. The application will exchange the authorization code for tokens and save them in a file named 'token.json'.
 
-** Now, you will get notifications in the desktop whenever new announcements are posted.**
+**Now, you will get notifications in the desktop whenever new announcements are posted.**
