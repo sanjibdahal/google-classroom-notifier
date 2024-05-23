@@ -69,3 +69,19 @@ go run main.go
 4. The application will exchange the authorization code for tokens and save them in a file named `token.json`.
 
 **Now, you will get notifications in the desktop whenever new announcements are posted.**
+
+## To create an executable file and run it in startup
+### For Windows
+
+1. Create an executable file:
+```bash
+go build -o classroom-notifier main.go
+```
+2. Create a shortcut in the Startup folder:
+- Press `Win + R`, type `shell:startup`, and press `Enter`. This opens the Startup folder.
+- Copy your `classroom-notifier.exe` to this folder or create a shortcut to it:
+- Right-click in the Startup folder, select `New > Shortcut`.
+- Browse to the location of `classroom-notifier.exe` and select it.
+- Follow the prompts to create the shortcut.
+
+**The application will now run every time you start your computer.**
