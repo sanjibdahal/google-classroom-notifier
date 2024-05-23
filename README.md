@@ -66,6 +66,6 @@ go run main.go
 1. When you run the application for the first time, it will print a URL in the terminal. Open this URL in your web browser.
 2. Log in with your Google account and authorize the application to access your Google Classroom data.
 3. You will be given an authorization code. Copy this code and paste it back into your terminal where your application is running.
-4. The application will exchange the authorization code for tokens and save them in a file named 'token.json'.
+4. The application will exchange the authorization code for tokens and save them in a file named `token.json`.
 
 **Now, you will get notifications in the desktop whenever new announcements are posted.**
